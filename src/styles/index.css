@@ -11,6 +11,10 @@ Document
 Use a better box model (opinionated).
 */
 
+.hidden-button {
+  visibility: hidden;
+}
+
 *,
 *::before,
 *::after {
