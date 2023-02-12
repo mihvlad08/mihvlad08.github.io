@@ -368,14 +368,14 @@ body {
   padding: 30px;
   border: 20px solid var(--cultured-3);
   transition: var(--transition);
-  height: 325px;
+  height: 335px !important;
   text-align: center;
 }
 .service-card img {
   margin: auto;
 }
 .feature-list .feature-card {
-  border: 1px solid black;
+  border: 1px solid black !important;
 }
 
 .service-card:is(:hover, :focus-within) { border-color: var(--dark-orange); }
